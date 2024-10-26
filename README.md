@@ -1,7 +1,5 @@
 # Brainrot VSCode Extension
 
-![Brainrot Logo](https://your-image-url-here.com/logo.png) <!-- Optional: Add a logo if you have one -->
-
 ## 🤔 What is Brainrot?
 
 **Brainrot** is a meme-inspired programming language that translates common programming keywords into internet slang and meme references. This VSCode extension provides syntax highlighting and basic language support for Brainrot files (`.brainrot`).
@@ -35,8 +33,8 @@ This extension adds:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/araujo88/brainrot-vscode-extension.git
-   cd brainrot-vscode-extension
+   git clone https://github.com/araujo88/brainrot-vscode-support.git
+   cd brainrot-vscode-support
    ```
 
 2. Open the project in VSCode:
