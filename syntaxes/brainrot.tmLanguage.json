@@ -1,0 +1,14 @@
+{
+    "scopeName": "source.brainrot",
+    "patterns": [
+      {
+        "match": "\\b(skibidi|rizz|flex|bussin|edging|amogus|goon|bruh|grind|chad|gigachad|yap|grimace|sigma|based|mewing|gyatt|whopper|cringe|giga|edgy|soy|nut|maxxing|salty|gang|ohio|chungus|nonut|schizo)\\b",
+        "name": "keyword.control.brainrot"
+      },
+      {
+        "match": "\\byapping\\b",
+        "name": "support.function.builtin.brainrot"
+      }
+    ]
+  }
+  
