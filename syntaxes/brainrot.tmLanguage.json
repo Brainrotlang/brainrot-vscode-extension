@@ -1,4 +1,5 @@
 {
+    "name": "Brainrot",
     "scopeName": "source.brainrot",
     "patterns": [
       {
@@ -12,7 +13,20 @@
       {
         "match": "\\bbaka\\b",
         "name": "support.function.builtin.brainrot"
+      },
+      {
+        "include": "#strings"
       }
-    ]
-  }
+    ],
+    "repository": {
+        "strings": {
+          "patterns": [
+            {
+              "name": "string.quoted.double.brainrot",
+              "match": "\"(\\\\.|[^\"])*\""
+            }
+          ]
+        }
+      }
+}
   
