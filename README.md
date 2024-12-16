@@ -30,22 +30,67 @@ This extension adds:
 
 ## 📦 Installation
 
-1. Clone this repository to your local machine:
+### Method 1: Running in Development Mode
+
+1. **Clone this repository** to your local machine:
 
    ```bash
    git clone https://github.com/araujo88/brainrot-vscode-support.git
    cd brainrot-vscode-support
    ```
 
-2. Open the project in VSCode:
+2. **Open the project in VSCode**:
 
    ```bash
    code .
    ```
 
-3. Press `F5` to launch a new VSCode window with your extension loaded.
+3. **Install the required dependencies**:
+   Make sure you have Node.js installed. If not, [download and install Node.js](https://nodejs.org/). Then, run:
 
-4. Create or open a `.brainrot` file to see syntax highlighting in action.
+   ```bash
+   npm install
+   ```
+
+4. **Launch the extension in a new VSCode window**:
+   Press `F5` or go to the "Run and Debug" sidebar and select "Run Extension." This will open a new instance of VSCode with your extension loaded.
+
+5. **Test the extension**:
+   Create or open a `.brainrot` file to see syntax highlighting in action.
+
+---
+
+### Method 2: Packaging and Installing the Extension
+
+1. **Package the extension**:
+   Install the VSCode Extension Manager (`vsce`) if you haven't already:
+
+   ```bash
+   npm install -g @vscode/vsce
+   ```
+
+   Run the following command to package the extension into a `.vsix` file:
+
+   ```bash
+   vsce package
+   ```
+
+   This will create a file like `brainrot-x.y.z.vsix`.
+
+2. **Install the packaged extension**:
+   Open VSCode and install the extension manually:
+
+   - Go to the Extensions view (`Ctrl+Shift+X` or `Cmd+Shift+X` on macOS).
+   - Click the "..." menu in the top-right corner and select "Install from VSIX..."
+   - Navigate to the `.vsix` file you created and select it to install.
+
+3. **Reload VSCode**:
+   After installation, reload VSCode to ensure the extension is active.
+
+4. **Test the extension**:
+   Open a `.brainrot` file to see syntax highlighting and language features in action.
+
+---
 
 ## 💻 Usage
 
@@ -87,10 +132,6 @@ The following keywords are highlighted in Brainrot:
 | chungus  | union        |
 | nonut    | unsigned     |
 | schizo   | volatile     |
-
-### Builtin Functions
-
-- `yapping(string)` → Equivalent to `printf` in C.
 
 ## ⚠️ Known Issues
 
