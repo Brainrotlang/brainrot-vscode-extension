@@ -8,6 +8,10 @@
       {
         "match": "\\byapping\\b",
         "name": "support.function.builtin.brainrot"
+      },
+      {
+        "match": "\\bbaka\\b",
+        "name": "support.function.builtin.brainrot"
       }
     ]
   }
