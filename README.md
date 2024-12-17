@@ -100,38 +100,40 @@ After following the installation steps, you can start writing Brainrot code in a
 
 The following keywords are highlighted in Brainrot:
 
-| Brainrot | C Equivalent |
-| -------- | ------------ |
-| skibidi  | void         |
-| rizz     | int          |
-| flex     | for          |
-| bussin   | return       |
-| edging   | if           |
-| amogus   | else         |
-| goon     | while        |
-| bruh     | break        |
-| grind    | continue     |
-| chad     | float        |
-| gigachad | double       |
-| yap      | char         |
-| grimace  | const        |
-| sigma    | case         |
-| based    | default      |
-| mewing   | do           |
-| gyatt    | enum         |
-| whopper  | extern       |
-| cringe   | goto         |
-| giga     | long         |
-| edgy     | register     |
-| soy      | short        |
-| nut      | signed       |
-| maxxing  | sizeof       |
-| salty    | static       |
-| gang     | struct       |
-| ohio     | switch       |
-| chungus  | union        |
-| nonut    | unsigned     |
-| schizo   | volatile     |
+| Brainrot   | C Equivalent |
+| ---------- | ------------ |
+| skibidi    | void         |
+| rizz       | int          |
+| cap        | bool         |
+| cooked     | auto         |
+| flex       | for          |
+| bussin     | return       |
+| edging     | if           |
+| amogus     | else         |
+| goon       | while        |
+| bruh       | break        |
+| grind      | continue     |
+| chad       | float        |
+| gigachad   | double       |
+| yap        | char         |
+| grimace    | const        |
+| sigma rule | case         |
+| based      | default      |
+| mewing     | do           |
+| gyatt      | enum         |
+| whopper    | extern       |
+| cringe     | goto         |
+| giga       | long         |
+| edgy       | register     |
+| soy        | short        |
+| nut        | signed       |
+| maxxing    | sizeof       |
+| salty      | static       |
+| gang       | struct       |
+| ohio       | switch       |
+| chungus    | union        |
+| nonut      | unsigned     |
+| schizo     | volatile     |
 
 ## ⚠️ Known Issues
 
