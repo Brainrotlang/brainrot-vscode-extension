@@ -134,6 +134,8 @@ The following keywords are highlighted in Brainrot:
 | chungus    | union        |
 | nonut      | unsigned     |
 | schizo     | volatile     |
+| yes        | true         |
+| no         | false        |
 
 ## ⚠️ Known Issues
 
