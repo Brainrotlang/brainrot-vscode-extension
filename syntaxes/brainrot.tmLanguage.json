@@ -7,23 +7,59 @@
         "name": "keyword.control.brainrot"
       },
       {
-        "match": "\\byapping\\b",
-        "name": "support.function.builtin.brainrot"
-      },
-      {
-        "match": "\\bbaka\\b",
+        "match": "\\byapping|baka|yappin\\b",
         "name": "support.function.builtin.brainrot"
       },
       {
         "include": "#strings"
+      },
+      {
+        "include": "#comments"
+      },
+      {
+        "include": "#chars"
+      },
+      {
+        "include": "#numbers"
       }
     ],
     "repository": {
-        "strings": {
+      "strings": {
+        "patterns": [
+          {
+            "begin": "\"",
+            "end": "\"",
+            "name": "string.quoted.double.brainrot",
+            "patterns": [
+              {
+                "name": "constant.character.escape.brainrot",
+                "match": "\\\\(\\\\|\"|n|t|r|b|f|v|0)"
+              }
+            ]
+          }
+        ]
+      },
+        "comments": {
           "patterns": [
             {
-              "name": "string.quoted.double.brainrot",
-              "match": "\"(\\\\.|[^\"])*\""
+              "name": "comment.line.double-slash.brainrot",
+              "match": "//.*$"
+            }
+          ]
+        },
+        "chars": {
+          "patterns": [
+            {
+              "name": "constant.character.brainrot",
+              "match": "'(\\\\.|[^'])*'"
+            }
+          ]
+        },
+        "numbers": {
+          "patterns": [
+            {
+              "name": "constant.numeric.brainrot",
+              "match": "\\b-?(0|[1-9]\\d*)(\\.\\d+)?(e[+-]?\\d+)?\\b"
             }
           ]
         }
