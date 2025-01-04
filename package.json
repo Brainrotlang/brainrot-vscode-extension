@@ -8,14 +8,16 @@
     "type": "git",
     "url": "https://github.com/araujo88/brainrot-vscode-support"
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "engines": {
     "vscode": "^1.90.0"
   },
   "categories": [
     "Programming Languages"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:brainrot"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "languages": [
@@ -37,6 +39,12 @@
         "scopeName": "source.brainrot",
         "path": "./syntaxes/brainrot.tmLanguage.json"
       }
+    ],
+    "commands": [
+      {
+        "command": "brainrot.insertToiletEmoji",
+        "title": "Insert Toilet Emoji"
+      }
     ]
   },
   "scripts": {
@@ -45,7 +53,8 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "release": "standard-version"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.9",
