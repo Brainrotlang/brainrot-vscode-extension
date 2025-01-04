@@ -134,8 +134,6 @@ dist
 .gitignore
 .yarnrc
 vsc-extension-quickstart.md
-**/tsconfig.json
-**/eslint.config.mjs
 **/*.map
 **/.vscode-test.*
 *.vsix
