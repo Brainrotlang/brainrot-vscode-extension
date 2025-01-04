@@ -119,9 +119,6 @@ dist
 # TernJS port file
 .tern-port
 
-# Stores VSCode versions used for testing VSCode extensions
-.vscode-test
-
 # yarn v2
 .yarn/cache
 .yarn/unplugged
@@ -134,8 +131,5 @@ dist
 .gitignore
 .yarnrc
 vsc-extension-quickstart.md
-**/tsconfig.json
-**/eslint.config.mjs
 **/*.map
-**/.vscode-test.*
 *.vsix
