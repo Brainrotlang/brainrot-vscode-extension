@@ -35,7 +35,7 @@ This extension adds:
 1. **Clone this repository** to your local machine:
 
    ```bash
-   git clone https://github.com/araujo88/brainrot-vscode-support.git
+   git clone https://github.com/brainrotlang/brainrot-vscode-support.git
    cd brainrot-vscode-support
    ```
 
@@ -135,12 +135,6 @@ The following keywords are highlighted in Brainrot:
 | schizo     | volatile     |
 | yes        | true         |
 | no         | false        |
-
-## ⚠️ Known Issues
-
-1. Error reporting is minimal.
-2. No support for complex control structures like functions other than `main`.
-3. Limited string manipulation capabilities.
 
 ## 🤝 Contributing
 
