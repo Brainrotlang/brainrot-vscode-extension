@@ -3,7 +3,7 @@
     "scopeName": "source.brainrot",
     "patterns": [
       {
-        "match": "\\b(skibidi|rizz|flex|bussin|edging|amogus|goon|bruh|grind|chad|gigachad|yap|grimace|sigma rule|based|mewing|gyatt|whopper|cringe|giga|edgy|soy|nut|maxxing|salty|gang|ohio|chungus|nonut|schizo|cap|yes|no)\\b",
+        "match": "\\b(skibidi|rizz|flex|bussin|amogus|goon|bruh|grind|chad|gigachad|yap|grimace|sigma rule|based|mewing|gyatt|whopper|cringe|giga|edgy|soy|nut|maxxing|salty|gang|ohio|chungus|nonut|schizo|cap|yes|no)\\b",
         "name": "keyword.control.brainrot"
       },
       {
@@ -43,7 +43,7 @@
           "patterns": [
             {
               "name": "comment.line.double-slash.brainrot",
-              "match": "//.*$"
+              "match": "🚽.*$"
             }
           ]
         },

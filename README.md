@@ -108,7 +108,7 @@ The following keywords are highlighted in Brainrot:
 | cooked     | auto         |
 | flex       | for          |
 | bussin     | return       |
-| edging     | if           |
+| edgy       | if           |
 | amogus     | else         |
 | goon       | while        |
 | bruh       | break        |
@@ -124,7 +124,6 @@ The following keywords are highlighted in Brainrot:
 | whopper    | extern       |
 | cringe     | goto         |
 | giga       | long         |
-| edgy       | register     |
 | soy        | short        |
 | nut        | signed       |
 | maxxing    | sizeof       |
