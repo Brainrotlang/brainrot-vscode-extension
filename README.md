@@ -28,9 +28,11 @@ This extension adds:
 - File association for `.brainrot` files.
 - Basic language configuration (comments, brackets, etc.).
 
-## 📦 Installation
+## 📥 Installation
 
-### Method 1: Running in Development Mode
+Refer to the [Installation Guide](docs/INSTALLATION_GUIDE.md).
+
+## 📦 Building from source
 
 1. **Clone this repository** to your local machine:
 
@@ -52,17 +54,7 @@ This extension adds:
    npm install
    ```
 
-4. **Launch the extension in a new VSCode window**:
-   Press `F5` or go to the "Run and Debug" sidebar and select "Run Extension." This will open a new instance of VSCode with your extension loaded.
-
-5. **Test the extension**:
-   Create or open a `.brainrot` file to see syntax highlighting in action.
-
----
-
-### Method 2: Packaging and Installing the Extension
-
-1. **Package the extension**:
+4. **Package the extension**:
    Install the VSCode Extension Manager (`vsce`) if you haven't already:
 
    ```bash
@@ -77,17 +69,17 @@ This extension adds:
 
    This will create a file like `brainrot-x.y.z.vsix`.
 
-2. **Install the packaged extension**:
+5. **Install the packaged extension**:
    Open VSCode and install the extension manually:
 
    - Go to the Extensions view (`Ctrl+Shift+X` or `Cmd+Shift+X` on macOS).
    - Click the "..." menu in the top-right corner and select "Install from VSIX..."
    - Navigate to the `.vsix` file you created and select it to install.
 
-3. **Reload VSCode**:
+6. **Reload VSCode**:
    After installation, reload VSCode to ensure the extension is active.
 
-4. **Test the extension**:
+7. **Test the extension**:
    Open a `.brainrot` file to see syntax highlighting and language features in action.
 
 ---
