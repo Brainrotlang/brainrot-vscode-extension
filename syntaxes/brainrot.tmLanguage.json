@@ -3,11 +3,11 @@
     "scopeName": "source.brainrot",
     "patterns": [
       {
-        "match": "\\b(skibidi|rizz|flex|bussin|amogus|goon|bruh|grind|chad|gigachad|yap|grimace|sigma rule|based|mewing|gyatt|whopper|cringe|giga|edgy|soy|nut|maxxing|salty|gang|ohio|chungus|nonut|schizo|cap|W|L)\\b",
+        "match": "\\b(skibidi|rizz|flex|bussin|amogus|goon|bruh|grind|chad|gigachad|yap|grimace|sigma rule|based|mewing|gyatt|whopper|cringe|giga|edgy|smol|nut|maxxing|salty|gang|ohio|chungus|nonut|schizo|cap|sus|thicc|rant|W|L)\\b",
         "name": "keyword.control.brainrot"
       },
       {
-        "match": "\\byapping|baka|yappin\\b",
+        "match": "\\byapping|baka|yappin|ragequit|chill\\b",
         "name": "support.function.builtin.brainrot"
       },
       {
