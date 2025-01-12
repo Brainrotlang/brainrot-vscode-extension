@@ -141,7 +141,7 @@ Contributions are welcome! If you'd like to improve the extension, feel free to 
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
