@@ -17,13 +17,15 @@ This guide will walk you through the steps to install the **Brainrot** VSCode ex
 
 - Launch VSCode on your system.
 
+![VSCode](./screenshot2.png)
+
 ---
 
 ## **Step 3:** Open the Extensions Sidebar
 
 - Click the **Extensions** icon on the left sidebar.
 
-![Extensions Sidebar](./screenshot2.png)
+![Extensions Sidebar](./screenshot3.png)
 
 ---
 
@@ -31,7 +33,7 @@ This guide will walk you through the steps to install the **Brainrot** VSCode ex
 
 - Click the **three dots** at the top-right corner of the Extensions view.
 
-![Options Menu](./screenshot3.png)
+![Options Menu](./screenshot4.png)
 
 ---
 
@@ -39,7 +41,7 @@ This guide will walk you through the steps to install the **Brainrot** VSCode ex
 
 - In the drop-down menu, select **Install from VSIX...**.
 
-![Install from VSIX](./screenshot4.png)
+![Install from VSIX](./screenshot5.png)
 
 ---
 
@@ -48,15 +50,13 @@ This guide will walk you through the steps to install the **Brainrot** VSCode ex
 - In the file browser, navigate to the location where you downloaded the `.vsix` file.
 - Select the `.vsix` file and click **Install**.
 
-![File Browser](./screenshot5.png)
+![File Browser](./screenshot6.png)
 
 ---
 
 ## **Step 7:** Success!
 
 - Once installed, the extension should now be active, and you can start using it with your projects.
-
-![Success](./screenshot6.png)
 
 ---
 
