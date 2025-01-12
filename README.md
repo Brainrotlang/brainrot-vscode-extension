@@ -124,7 +124,7 @@ The following keywords are highlighted in Brainrot:
 | whopper    | extern       |
 | cringe     | goto         |
 | giga       | long         |
-| soy        | short        |
+| smol       | short        |
 | nut        | signed       |
 | maxxing    | sizeof       |
 | salty      | static       |
