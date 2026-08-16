@@ -97,7 +97,6 @@ The following keywords are highlighted in Brainrot:
 | skibidi    | void         |
 | rizz       | int          |
 | cap        | bool         |
-| cooked     | auto         |
 | flex       | for          |
 | bussin     | return       |
 | edgy       | if           |
@@ -108,7 +107,7 @@ The following keywords are highlighted in Brainrot:
 | chad       | float        |
 | gigachad   | double       |
 | yap        | char         |
-| grimace    | const        |
+| deadass    | const        |
 | sigma rule | case         |
 | based      | default      |
 | mewing     | do           |
@@ -125,6 +124,8 @@ The following keywords are highlighted in Brainrot:
 | chungus    | union        |
 | nonut      | unsigned     |
 | schizo     | volatile     |
+| thicc      | long long    |
+| rant       | string type  |
 | W          | true         |
 | L          | false        |
 
