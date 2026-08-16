@@ -102,16 +102,28 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Bump patch version
+      # The newest v* tag is the source of truth for the released version, not
+      # package.json. The bump is applied to the working tree only and never
+      # committed, because a repository ruleset requires all changes to main to
+      # go through a reviewed pull request.
+      - name: Compute next version
         id: bump
         run: |
-          TAG=$(npm version patch -m "chore(release): %s [skip ci]")
+          git fetch --tags --force
+          LATEST=$(git tag -l 'v*' --sort=-v:refname | head -n1)
+          if [ -z "$LATEST" ]; then
+            echo "::error::No v* tag found to derive the next version from."
+            exit 1
+          fi
+          npm version "${LATEST#v}" --no-git-tag-version --allow-same-version >/dev/null
+          TAG=$(npm version patch --no-git-tag-version)
+          echo "Latest tag $LATEST -> releasing $TAG"
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
 
       - name: Verify tag is new
         run: |
           if git ls-remote --tags origin "refs/tags/${{ steps.bump.outputs.tag }}" | grep -q .; then
-            echo "::error::Tag ${{ steps.bump.outputs.tag }} already exists on origin. package.json has drifted behind the tags; bump it manually past the newest tag."
+            echo "::error::Tag ${{ steps.bump.outputs.tag }} already exists on origin."
             exit 1
           fi
 
@@ -121,8 +133,10 @@ jobs:
       - name: Package Extension
         run: vsce package
 
-      - name: Push version bump and tag
-        run: git push origin HEAD:main --follow-tags
+      - name: Push tag
+        run: |
+          git tag -a "${{ steps.bump.outputs.tag }}" -m "${{ steps.bump.outputs.tag }}"
+          git push origin "${{ steps.bump.outputs.tag }}"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
