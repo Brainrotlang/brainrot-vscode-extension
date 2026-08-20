@@ -11,6 +11,10 @@
         "name": "support.function.builtin.brainrot"
       },
       {
+        "match": "#cooked\\b",
+        "name": "keyword.control.directive.brainrot"
+      },
+      {
         "include": "#strings"
       },
       {
