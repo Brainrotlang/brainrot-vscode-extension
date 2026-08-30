@@ -7,7 +7,7 @@
         "name": "keyword.control.brainrot"
       },
       {
-        "match": "\\b(yapping|baka|yappin|ragequit|chill|slorp|bet)\\b",
+        "match": "\\b(yapping|baka|yappin|ragequit|chill|slorp|bet|gamba|yaplen|yapcat|yapcmp|yapidx)\\b",
         "name": "support.function.builtin.brainrot"
       },
       {
