@@ -112,8 +112,6 @@ The following keywords are highlighted in Brainrot:
 | based      | default      |
 | mewing     | do           |
 | gyatt      | enum         |
-| whopper    | extern       |
-| cringe     | goto         |
 | giga       | long         |
 | smol       | short        |
 | nut        | signed       |
@@ -126,8 +124,19 @@ The following keywords are highlighted in Brainrot:
 | schizo     | volatile     |
 | thicc      | long long    |
 | rant       | string type  |
+| SAUCE      | FILE handle  |
 | W          | true         |
 | L          | false        |
+
+### Highlighted standard-library builtins
+
+These are library functions (not keywords), highlighted as builtins:
+
+`yapping`, `yappin`, `baka`, `ragequit`, `chill`, `slorp`, `bet`, `gamba`, `yaplen`, `yapcat`, `yapcmp`, `yapidx`.
+
+Plus the file I/O family (behind a `SAUCE *` handle), added in Brainrot v0.4.0:
+
+`crackopen`, `peaceout`, `doomscroll`, `shitpost`, `skim`, `yapto`, `zoink`, `whereami`, `throwback`, `itsjoever`, `bricked`, `bustcache`.
 
 ## 🤝 Contributing
 
